@@ -1,6 +1,8 @@
 name: Build & Tests
 
-on: [push]
+on: 
+  workflow_dispatch:
+   
 
 jobs:
   test:
