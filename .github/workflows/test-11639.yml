@@ -23,7 +23,7 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install build
-          pip install -r requirements.txt  # If you have a requirements.txt file
+          pip install -r requirements.txt
 
       # Build the package
       - name: Build package
